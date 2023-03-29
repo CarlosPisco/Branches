@@ -14,4 +14,9 @@ public class CarController {
         return "cars";
     }
 
+
+    @GetMapping("/vista2")
+    public String otravista(){
+        return "vista2";
+    }
 }
